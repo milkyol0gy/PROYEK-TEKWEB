@@ -1,0 +1,119 @@
+.sign-in-child {
+    position: absolute;
+    top: calc(50% - 272px);
+    left: calc(50% - 348px);
+    width: 695px;
+    height: 543px;
+    object-fit: cover;
+  }
+  .lets-login-to {
+    position: absolute;
+    top: 270px;
+    left: calc(50% - 221px);
+    font-size: var(--font-size-xl);
+    font-weight: 800;
+    display: inline-block;
+    width: 344px;
+    height: 30px;
+  }
+  .rectangle-div,
+  .sign-in-inner,
+  .sign-in-item {
+    position: absolute;
+    border-radius: var(--br-3xs);
+    border: 1px solid var(--color-darkslateblue);
+    box-sizing: border-box;
+    width: 440px;
+    height: 46px;
+  }
+  .sign-in-item {
+    top: 309px;
+    left: calc(50% - 221px);
+    background-color: var(--color-midnightblue);
+  }
+  .rectangle-div,
+  .sign-in-inner {
+    top: 459px;
+    left: calc(50% - 221px);
+    background-color: var(--color-darkslateblue);
+  }
+  .sign-in-inner{
+    font: Poppins;
+    color: #fff;
+  }
+  .rectangle-div {
+    top: 374px;
+    background-color: var(--color-midnightblue);
+  }
+
+  .sign-in-item::placeholder,
+  .rectangle-div::placeholder{
+    color: #1b385f;
+    font-size: 15px;
+  }
+  .dont-have-an,
+  .login,
+  .register-here {
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+  }
+  .login {
+    top: 467px;
+    left: calc(50% - 81px);
+    font-size: var(--font-size-xl);
+    text-transform: capitalize;
+    font-weight: 800;
+    color: #fff;
+    width: 160px;
+    height: 30px;
+  }
+  .dont-have-an,
+  .register-here {
+    top: 514px;
+  }
+  .register-here {
+    left: calc(50% + 115px);
+    text-transform: capitalize;
+    font-weight: 600;
+    width: 107px;
+    height: 24px;
+    color: var(--color-darkslateblue);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .register-here:hover {
+    text-decoration: underline;
+  }
+  .dont-have-an {
+    left: calc(50% - 70px);
+    font-weight: 500;
+    width: 188px;
+    height: 27px;
+  }
+
+  .logo-bli-n-go-2-1 {
+    position: absolute;
+    object-fit: cover;
+  }
+  .logo-bli-n-go-2-1 {
+    top: 180px;
+    left: calc(50% - 70px);
+    width: 100px;
+    height: 75.45px;
+  }
+  .sign-in {
+    position: relative;
+    background-color: var(--color-darkslateblue);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 100%;
+    height: 720px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-mini);
+    color: var(--color-darkslateblue);
+    font-family: var(--font-poppins);
+  }
+  

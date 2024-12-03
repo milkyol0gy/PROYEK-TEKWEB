@@ -1,0 +1,118 @@
+body {
+    font-family: Poppins;
+    color: #3f3f3f;
+}
+#allproduct {
+    position: relative;
+    color: rgb(183, 183, 183);
+    text-decoration: none;
+}
+
+#allproduct::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px; /* Lebar underline, sesuaikan sesuai kebutuhan */
+    bottom: 0;
+    left: 0;
+    background-color: yellow;
+    visibility: visible;
+}
+
+#search {
+    margin-top: 60px;
+}
+
+#products-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+.btn-products {
+    flex: 0 0 calc(20% - 20px); /* 20% - (2 * 10px margin) */
+    margin: 10px;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .btn-products {
+        flex: 0 0 calc(50% - 20px); /* 50% - (2 * 10px margin) */
+    }
+}
+
+/* Adjust justify-content for small screens or when items are less than 5 */
+@media (max-width: 767px), (max-width: 1023px) and (min-width: 768px) {
+    #products-container {
+        justify-content: flex-start;
+    }
+}
+
+.btn-products {
+    background-color: rgb(255, 249, 249);
+    color: #3f3f3f;
+    padding: 10px 10px;
+    border: none;
+    text-align: left;
+    text-decoration: none;
+    display: flex; /* Use flexbox to align items vertically */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.img-products {
+    width: 220px;
+    height: 220px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray -7.219px -180.193px / 136.105% 173.846% no-repeat;
+}
+
+.name-product, .price {
+    text-align: left; /* Keep text left-aligned */
+}
+
+#contact {
+    background-image: url('../homepage/asset-homepage/contact-background.png');
+    background-size: cover;
+    padding: 100px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h4 {
+    margin-bottom: 10px; /* Jarak antara judul dan tombol */
+    color: #FFF;
+}
+.btn-contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-contact {
+    background-color: transparent;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#footer {
+    background-color: #1D3A61;
+}
+
+#footer-text {
+    color: #FFF;
+    padding: 5px;
+}

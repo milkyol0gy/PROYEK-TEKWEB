@@ -1,0 +1,141 @@
+.register-child {
+  position: absolute;
+  top: calc(50% - 314.5px);
+  left: calc(50% - 348px);
+  width: 695px;
+  height: 629px;
+  object-fit: cover;
+}
+.logo-bli-n-go-2-1 {
+  position: absolute;
+  top: 147px;
+  left: calc(50% - 50px);
+  width: 100px;
+  height: 75.45px;
+  object-fit: cover;
+}
+.get-started {
+  position: absolute;
+  top: 230px;
+  left: 425px;
+  font-size: 25px;
+  font-weight: 800;
+  display: inline-block;
+  width: 173px;
+  height: 34px;
+}
+.input-uname {
+  position: absolute;
+  top: 355px;
+  left: 420px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-midnightblue);
+  border: 1px solid var(--color-darkslateblue);
+  box-sizing: border-box;
+  width: 440px;
+  height: 46px;
+}
+.input-name {
+  position: absolute;
+  top: 297px;
+  left: 420px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-midnightblue);
+  border: 1px solid var(--color-darkslateblue);
+  box-sizing: border-box;
+  width: 440px;
+  height: 46px;
+}
+.input-address {
+  position: absolute;
+  top: 414px;
+  left: 420px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-midnightblue);
+  border: 1px solid var(--color-darkslateblue);
+  box-sizing: border-box;
+  width: 440px;
+  height: 46px;
+}
+.input-telp {
+  position: absolute;
+  top: 472px;
+  left: 420px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-midnightblue);
+  border: 1px solid var(--color-darkslateblue);
+  box-sizing: border-box;
+  width: 440px;
+  height: 46px;
+}
+.input-pass {
+  position: absolute;
+  top: 530px;
+  left: 420px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-midnightblue);
+  border: 1px solid var(--color-darkslateblue);
+  box-sizing: border-box;
+  width: 440px;
+  height: 46px;
+}
+#uname::placeholder,
+#name::placeholder,
+#pass::placeholder,
+#alamat::placeholder,
+#notelp::placeholder{
+  color: #1b385f;
+  font-size: 15px;
+}
+.btn-regist {
+  position: absolute;
+  top: 603px;
+  left: 420px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-darkslateblue);
+  border: 1px solid var(--color-darkslateblue);
+  box-sizing: border-box;
+  width: 440px;
+  height: 46px;
+  cursor: pointer;
+}
+#regist {
+  font-weight: 800;
+  color: #fff;
+}
+.register-now,
+.we-provide-many {
+  position: absolute;
+  display: inline-block;
+}
+.register-now {
+  top: 611px;
+  left: 534px;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 800;
+  color: #fff;
+  text-align: center;
+  width: 212px;
+  height: 30px;
+}
+.we-provide-many {
+  top: 264px;
+  left: 425px;
+  width: 376px;
+  height: 26.7px;
+}
+.register {
+  position: relative;
+  background-color: var(--color-darkslateblue);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 100%;
+  height: 797px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-darkslateblue);
+  font-family: var(--font-poppins);
+}
